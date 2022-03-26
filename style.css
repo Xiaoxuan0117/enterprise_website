@@ -1,0 +1,222 @@
+      
+      .pagehead{
+      	position: fixed;
+      	right: 0px;
+      	top: 0px;
+      	width: 100%;
+      	height: 100px;
+      	font-family: 'Noto Sans CJK TC Black';
+      	background-color: rgba(246,246,246,0.8);
+      }
+      .headtable{
+      	width: 100%;
+      	height: 100px;
+      }
+      .headtitle{
+      	text-align:left;
+      	font-size: 50px;
+      	letter-spacing: 10px;
+        padding-left: 10px;
+      }	
+      .goarticle{
+      	padding:8px;
+      	padding-right: 15px;
+      	padding-left: 15px;
+        border: 0;
+        border-radius: 50px;
+        background-color: white;
+        color:  #4F4F4F;
+        font-family: 'Noto Sans CJK TC Black';
+        font-size: 30px;
+        height: 50px;
+        letter-spacing: 10px;
+      }
+      .goarticle:hover{
+        background-color: #4F4F4F;
+        color: white;
+      }
+      .loginbottom{
+        margin:5px;
+        border: 2px solid #4F4F4F;
+        border-radius: 5px;
+        color:  #4F4F4F;
+        font-family: 'Noto Sans CJK TC Black';
+        font-size: 18px;
+        text-align: center;
+        padding:5px;
+      }
+      .loginbottom:hover{
+        background-color: #4F4F4F;
+        color: white;
+      }
+      .firstblock{
+      	position: relative;
+      	top: 0px;
+      	right: 0px;
+      	left: 0px;
+      	text-align: center;
+      	height: 700px;
+      }
+      .headpic{
+      	position: absolute;
+      	width: 100%;
+      	margin: -7px;
+      }
+      .maintitle{
+      	position: absolute;
+      	top:180px;
+          right:0;
+          bottom:0;
+          left:0;
+          margin:auto;
+      	color:#4F4F4F;
+      	font-family: 'Noto Sans CJK TC Black';
+        font-size: 100px;
+        letter-spacing: 10px;
+      }
+      .search{
+      border:#4F4F4F solid 1px;
+      border-radius: 10px;
+      background-color: rgb(255,255,255,0.8);
+      width:800px;
+      height: 50px;
+      }
+      .searchingbottom{
+      	padding-top: 5px;
+      	padding-bottom: 5px;
+      	padding-right: 10px;
+      	padding-left: 10px;
+        border: 0px;
+        border-radius: 5px;
+        color: white;
+        background-color: #4F4F4F;
+        font-family: 'Noto Sans CJK TC Black';
+        font-size: 25px;
+        margin: 20px;
+        text-align: center;
+      }
+      .searchingbottom:hover{
+        background-color: white;
+        color: #4F4F4F;
+      }
+      .secondblock{
+      	position: relative;
+      	top: 0px;
+      	right: 0px;
+      	left: 0px;
+      	text-align: center;
+      }
+      .typesearchingbottom{
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-right: 10px;
+        padding-left: 10px;
+        border: 0px;
+        border-radius: 5px;
+        color: #4F4F4F;
+        background-color: white;
+        font-family: 'Noto Sans CJK TC Black';
+        font-size: 15px;
+        margin: 20px;
+        text-align: center;
+      }
+      .typesearchingbottom:hover{
+        background-color: #4F4F4F;
+        color: white;
+      }      
+      .typesearch{
+      border:#4F4F4F solid 1px;
+      border-radius: 10px;
+      background-color: rgb(255,255,255,0.8);
+      width:100px;
+      height: 25px;
+      }
+      .articletitle{
+      	position: relative;
+      	top:0;
+          right:0;
+          bottom:0;
+          left:0;
+          margin:auto;
+      	color:#4F4F4F;
+      	font-family: 'Noto Sans CJK TC Black';
+        font-size: 50px;
+        letter-spacing: 10px;
+      }
+      .articlefilter{
+      	position: relative;
+      	width: 400px;
+      	font-size: 30px;
+        color:#4F4F4F;
+        font-family: 'Noto Sans CJK TC Black';
+      	top:0;
+        right:0;
+        bottom:0;
+        left:0;
+        margin:auto;
+      }
+      .articleblock{
+      	position: relative;
+      	text-align: center;
+      	font-family: 'Noto Sans CJK TC Medium';
+      	font-size: 20px;
+      }
+      .articlebox{
+      	display: block;
+      	top:0;
+          right:0;
+          bottom:0;
+          left:0;
+          margin:auto;
+      	width: 700px;
+      	border :#4F4F4F solid 2px;
+      	border-radius: 5px;
+      	background-color: white;
+      	margin-top: 10px;
+
+      }
+      .articleboxhead{
+      	width: 100%;
+      	height: 40px;
+      	background-color: #4F4F4F;
+      	top: 0px;
+      	text-align: center;
+      }
+      .articlecontext{
+      	padding: 10px;
+
+      }
+      .conandpro{
+      	width: 50%;
+      	padding: 20px;
+      }
+      .conandprobox{
+      	border:0px;
+      	border-radius: 5px;
+      	background-color: #f6f6f6;
+      	text-align: left;
+      	padding: 10px;
+      	margin-top: 10px;
+      }
+      .commentblock{
+        position: relative;
+        font-family: 'Noto Sans CJK TC Medium';
+        font-size: 20px;
+      }
+      .commenttitle{
+        text-align: left;
+        font-family: 'Noto Sans CJK TC Black';
+        font-size:50px;
+        color:#4F4F4F;
+      }
+      .commentcontent{
+        padding:10px;
+        width: 500px;
+        height: 30px;
+      }
+      .commentbox{
+        margin:auto;
+        width: 700px;
+        border-bottom:#4F4F4F solid 2px;
+        margin-top: 5px;
+      }

@@ -1,0 +1,83 @@
+ body {
+   
+   background-image: url(login1.jpg);
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: center;
+   background-size: 100%;
+   
+} 
+      
+.background{
+        
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -999
+
+}
+
+.background img{
+    min-height: 100%;
+    min-width: 1000px;
+    width: 100%;
+    margin-top:-200px; 
+}
+
+
+.left{
+    position:fixed;
+    width: 50%;
+    font-family: 'Noto Sans CJK TC Black';
+    color: white;
+    letter-spacing: 20px;
+    padding-top: 50px;
+    text-align: right;
+}
+
+.right{
+    width: 50%;
+    float: right;
+    padding-top: 50px;
+}
+
+.loginbox{
+    margin-top: 30px;
+    margin-left: 30px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: white;
+    opacity: 93%;
+    color:  #4F4F4F;
+    width: 50%;
+    height: 110px;
+    margin-left: 40px;
+    font-family: 'Noto Sans CJK TC Black';
+    font-size: 18px;
+    letter-spacing: 10px;
+}
+
+.input-login {
+    border: 0;
+    border-radius: 5px;
+    background-color: white;
+    color:  #4F4F4F;
+    font-family: 'Noto Sans CJK TC Black';
+    font-size: 18px;
+}
+
+.input-login:hover{
+    background-color: #4F4F4F;
+    color: white;
+}
+
+.register{
+    margin-top: 15px;
+    margin-left: 50px;
+    color:  white;
+    font-family: 'Noto Sans CJK TC Black';
+    font-size: 18px;
+    letter-spacing: 10px;
+}

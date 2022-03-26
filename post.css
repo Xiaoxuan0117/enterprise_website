@@ -1,0 +1,58 @@
+ body {
+   
+   background-image: url(post.jpg);
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: center;
+   background-size: 100%;
+   
+} 
+
+
+.left{
+
+    position:left;
+    width: 50%;
+    font-family: 'Noto Sans CJK TC Black';
+    color: white;
+    letter-spacing: 20px;
+    padding-top: 100px;
+    text-align: center; 
+  }
+
+
+.box{
+    padding-top: 10px;
+}
+
+
+.postbox{
+    /* margin-top: 30px;
+    margin-left: 30px; */
+    
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    background-color: white;
+    opacity: 93%;
+    color:  #4F4F4F;
+    width: 60%;
+    height: 110px;
+    /* margin-left: 40px; */
+    font-family: 'Noto Sans CJK TC Black';
+    font-size: 18px;
+    letter-spacing: 10px;
+  }
+  .input-login {
+    border: 0;
+    border-radius: 5px;
+    background-color: white;
+    color:  #4F4F4F;
+    font-family: 'Noto Sans CJK TC Black';
+    font-size: 18px;
+}
+.input-login:hover{
+    background-color: #4F4F4F;
+    color: white;
+}
+  

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>註冊</title>
+    <style type="text/css">
+
+      body {
+          /* background-color: rgb(0, 0, 0, 0.5);  */
+          background-image: url(register.jpg);
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-position: center;
+          background-size: 100%;
+          
+      }
+      .background{
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        z-index: -999
+
+      }
+      .background img{
+        min-height: 100%;
+        min-width: 1000px;
+        width: 100%;
+        margin-top:-200px; 
+      }
+      .left{
+        position:fixed;
+        width: 50%;
+        font-family: 'Noto Sans CJK TC Black';
+        color: white;
+        letter-spacing: 20px;
+        padding-top: 50px;
+        text-align: right;
+      }
+      .right{
+        width: 50%;
+        float: right;
+        padding-top: 50px;
+      }
+      .registerbox{
+        margin-top: 30px;
+        margin-left: 30px;
+        padding: 15px;
+        border-radius: 10px;
+        background-color: white;
+        opacity: 93%;
+        color:  #4F4F4F;
+        width: 50%;
+        margin-left: 40px;
+        font-family: 'Noto Sans CJK TC Black';
+        font-size: 18px;
+        letter-spacing: 10px;
+      }
+      .input-register {
+        border: 0;
+        border-radius: 5px;
+        background-color: white;
+        color:  #4F4F4F;
+        font-family: 'Noto Sans CJK TC Black';
+        font-size: 18px;
+      }
+      .input-register:hover{
+        background-color: #4F4F4F;
+        color: white;
+      }
+  </style>
+</head>
+<body>
+    <div class="background">
+      <img class="background img"  >
+    </div>
+    <div class="left">
+      <a href="https://localhost/enterprise/index.php" style="color: white;font-size: 80px;text-decoration:none;">企業地圖</a>
+      <div style="font-size: 50px;margin-top: -17px">註冊</div>
+      <div style="font-size: 20px">立即註冊，開始分享你的職場心得</div>
+    </div>
+  </div>
+    <div class="right">
+    <div class="registerbox">
+    <form action="register.php" method="post">
+        <table RULES=ROWS style="border:0px #FFFFFF solid;"cellspacing="1" cellpadding="8" border="1">
+            <tr style="border-bottom:0px #FFFFFF solid">
+                <td align="right">帳號:</td>
+                <td><input required type="text" name="account" size="15" /></td>
+            </tr>
+            <tr style="border-bottom:0px #FFFFFF solid">
+                <td align="right">密碼:</td>
+                <td><input required type="password" name="password" size="15" /></td>
+            </tr>
+            <tr style="border-bottom:0px #FFFFFF solid">
+                <td align="right">使用者名稱:</td>
+                <td><input required type="text" name="UserID" size="15" /></td>
+            </tr>
+            <tr style="border-bottom:0px #FFFFFF solid">
+                <td align="right">電子信箱:</td>
+                <td><input required type="text" name="email" size="15"/></td>
+            </tr>
+            <tr style="border-bottom:0px #FFFFFF solid">
+                <td align="right">
+                <label for="bookdate">生日：</label>
+                </td>
+                <td><input type="date" name="birthday" size="15"/></td>
+            </tr>
+            <!-- <tr style="border-bottom:0px #FFFFFF solid">
+                <td align="right">畢業年度:</td>
+                <td><input type="text" name="year" size="15" /></td>
+            </tr> -->
+            <tr style="border-bottom:0px #FFFFFF solid">
+                <td><input class="input-register" type="submit" value="註冊"/></td>
+            </tr>
+        </table>
+    </form>
+</div>
+</div>
+
+</body>
+</html>
